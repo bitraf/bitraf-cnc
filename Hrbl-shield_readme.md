@@ -33,6 +33,16 @@ HRBL is currently in use in:
 * [Hedy v1](https://github.com/fellesverkstedet/fabricatable-machines/blob/master/hedy-pcb-cnc/readme.md) A CNC milling machine made to mill circuit boards like this one.
 * [Humphrey v3](https://github.com/fellesverkstedet/fabricatable-machines/blob/master/humphrey-large-format-cnc/humphrey_v3/Readme.md) A large size CNC milling machine built as a kit by Makerspace in Brumundal.
 
+### Firmware for the Arduino NANO
+
+* Download this repo and go into the [Hrbl_for_shopbot/grbl_spindle_enable_no_alarm_on_boot/](Hrbl_for_shopbot/grbl_spindle_enable_no_alarm_on_boot/) folder on your computer
+* Open the grblUpload.ino file in the grblUpload folder.
+* Connect the Arduino Nano, select the correct COM port and upload.
+* Dowload [UGS] or another gcode sender
+* Connect and cofigure the homeing direction, max speed, acceleration and steps per mm. Make a backup of these settings in a txt file and upload them here.
+
+[Official GRBL instructions](https://github.com/gnea/grbl/wiki)
+
 ### Functionality
 
 * 4 x 8 pole pluggable connections that combine all connections needed per axis in one connector per motor
