@@ -22,11 +22,22 @@
 
 ![top](img/pcb_back_w_cover.JPG)
 
+*The HRLB card that was made for [Hedy](https://github.com/fellesverkstedet/fabricatable-machines/blob/master/hedy-pcb-cnc/readme.md#hedy-pcb-mill)*
+
 ### Connections
 
 ![Connections](img/connections.JPG)
 
 [Connections SVG](img/hrbl_shield.svg)
+
+*These need to be reconfigured to match the connections on the shobot*
+
+![shopbot driver pins](img/shopbot_driver.jpg)
+
+*Shopbot driver pins*
+
+* Question: How does the shopbot controller connect to the limit switches?
+
 
 ## Files
 
@@ -83,4 +94,6 @@ HRBL for integrated motor drivers is currently in use in:
 ![PCB](img/pcb_solder_mask_front_before.JPG)
 
 ![Laser sheet](img/laser_sheets_specs.JPG)
+
+*Laser foil for solder mask and silkscreen*
 
