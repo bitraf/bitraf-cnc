@@ -33,13 +33,13 @@ HRBL is currently in use in:
 
 ### Firmware for the Arduino NANO
 
-* Download this repo and go into the [Hrbl_for_shopbot/grbl_spindle_enable_no_alarm_on_boot/](Hrbl_for_shopbot/grbl_spindle_enable_no_alarm_on_boot/) folder on your computer
-* Open the grblUpload.ino file in the grblUpload folder.
+* Download this repo and go into the [Hrbl_for_shopbot/grbl_spindle_enable_no_alarm_on_boot](Hrbl_for_shopbot/grbl_spindle_enable_no_alarm_on_boot/) folder on your computer
+* Open the grblUpload.ino file in the grblUpload subfolder.
 * Connect the Arduino Nano, select the correct COM port and upload.
-* Dowload [UGS] or another gcode sender
+* *The config is set for spindle enable, pwm and disabled (homeing warning) alarm on boot.*
+* Dowload [UGS](https://winder.github.io/ugs_website/download/) or another gcode sender
 * Connect and cofigure the homeing direction, max speed, acceleration and steps per mm. Make a backup of these settings in a txt file and upload them here.
-
-[Official GRBL instructions](https://github.com/gnea/grbl/wiki)
+* Problems? See the [Official GRBL instructions](https://github.com/gnea/grbl/wiki)
 
 ### Functionality
 
