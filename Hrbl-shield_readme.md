@@ -21,11 +21,9 @@ A shield aiming to simplify connecting motors, limit switches, safety and spindl
 
 ## Files
 
-* [All dxf files for milling and laser engraving the foil](nano/CNC/nano-all_DXFs.zip)
-* [KiCAD Schematic](nano/nano.sch)
-* [KiCAD Board](nano.kicad_pcb)
-* [KiCAD project file](nano.pro)
-* [KiCAD project folder](nano/)
+* [All dxf files for milling and laser engraving the foil](Hrbl_for_shopbot/nano-all_DXFs.zip)
+* [BOM PDF](Hrbl_for_shopbot/nano_BOM.pdf)
+* [BOM ODS format](Hrbl_for_shopbot/nano_BOM.ods)
 
 ### Status
 
@@ -51,10 +49,6 @@ HRBL is currently in use in:
 * Z axis milling bit probe connection with external pull-up
 * Spindle control with start and speed control. Uses optocoupler for safe handling of extrernal start signal
 * External power loss detection, keeps the controller in ABORT mode when there is no power to the motors.
-
-### BOM
-* [BOM PDF](https://github.com/fellesverkstedet/fabricatable-machines/raw/master/hrbl-shield/nano/CNC/nano_BOM.pdf)
-* [BOM ODS format](https://github.com/fellesverkstedet/fabricatable-machines/raw/master/hrbl-shield/nano/CNC/nano_BOM.ods)
 
 ### Dependables
 
