@@ -49,24 +49,24 @@ $EndComp
 $Comp
 L Device:C C1
 U 1 1 5BC16173
-P 3500 2750
-F 0 "C1" H 3615 2796 50  0000 L CNN
-F 1 "C 10uF" H 3100 2750 50  0000 L CNN
-F 2 "" H 3538 2600 50  0001 C CNN
-F 3 "~" H 3500 2750 50  0001 C CNN
-	1    3500 2750
+P 2850 3450
+F 0 "C1" H 2965 3496 50  0000 L CNN
+F 1 "C 10uF" H 2450 3450 50  0000 L CNN
+F 2 "" H 2888 3300 50  0001 C CNN
+F 3 "~" H 2850 3450 50  0001 C CNN
+	1    2850 3450
 	1    0    0    -1  
 $EndComp
 $Comp
 L Device:R R1
 U 1 1 5BC161F0
-P 3800 2950
-F 0 "R1" V 3900 2950 50  0000 C CNN
-F 1 "R 1k" V 3684 2950 50  0000 C CNN
-F 2 "" V 3730 2950 50  0001 C CNN
-F 3 "~" H 3800 2950 50  0001 C CNN
-	1    3800 2950
-	0    1    1    0   
+P 3250 3300
+F 0 "R1" V 3350 3300 50  0000 C CNN
+F 1 "R 1k" V 3134 3300 50  0000 C CNN
+F 2 "" V 3180 3300 50  0001 C CNN
+F 3 "~" H 3250 3300 50  0001 C CNN
+	1    3250 3300
+	0    -1   -1   0   
 $EndComp
 $Comp
 L Transistor_BJT:2N2219 Q1
@@ -79,7 +79,7 @@ F 3 "http://www.onsemi.com/pub_link/Collateral/2N2219-D.PDF" H 3450 2200 50  000
 	1    3450 2200
 	-1   0    0    -1  
 $EndComp
-Text GLabel 2800 3150 0    50   Input ~ 0
+Text GLabel 2750 3300 0    50   Input ~ 0
 A1toVFD
 Text GLabel 2800 2400 0    50   Input ~ 0
 SCtoVFD
@@ -23010,7 +23010,7 @@ Wire Notes Line
 	5000 2050 4150 2050
 Text Notes 4400 2700 0    50   ~ 0
 Arduino
-Text GLabel 2800 2550 0    50   Input ~ 0
+Text GLabel 2750 3650 0    50   Input ~ 0
 ACtoVFD
 $Comp
 L Device:R R2
@@ -23030,68 +23030,78 @@ Wire Wire Line
 Text Notes 2500 1850 0    50   ~ 0
 +24V 8mA
 Connection ~ 3350 2400
-Wire Wire Line
-	4050 2950 3950 2950
-Wire Wire Line
-	3650 2950 3500 2950
-Wire Wire Line
-	3500 2950 3500 2900
 Wire Notes Line
 	4150 3350 4150 2050
-Wire Wire Line
-	3350 2400 3500 2400
-Wire Wire Line
-	3500 2600 3500 2550
-Wire Wire Line
-	3500 2550 3500 2400
-Connection ~ 3500 2550
-Connection ~ 3500 2400
-Wire Wire Line
-	3500 2400 4050 2400
 Wire Wire Line
 	2800 1950 3350 1950
 Wire Wire Line
 	2800 2400 3350 2400
-Wire Wire Line
-	2800 2550 3500 2550
-Text Notes 1800 2450 0    50   ~ 0
+Text Notes 1300 2650 0    50   ~ 0
 Long wires
-Wire Notes Line
-	3100 1850 3100 3350
-Wire Notes Line
-	3100 3350 4000 3350
-Wire Notes Line
-	4000 3350 4000 1850
-Wire Notes Line
-	4000 1850 3100 1850
 Text Notes 3400 1800 0    50   ~ 0
 Breadboard
 Wire Notes Line
-	2450 1800 2200 1800
+	1950 2000 1700 2000
 Wire Notes Line
-	2200 3300 2500 3300
+	1700 3500 2000 3500
 $Comp
 L Transistor_BJT:2N2219 Q?
 U 1 1 5BC1A4DC
-P 3150 2950
-F 0 "Q?" H 3341 2996 50  0000 L CNN
-F 1 "2N2219" H 3341 2905 50  0000 L CNN
-F 2 "Package_TO_SOT_THT:TO-39-3" H 3350 2875 50  0001 L CIN
-F 3 "http://www.onsemi.com/pub_link/Collateral/2N2219-D.PDF" H 3150 2950 50  0001 L CNN
-	1    3150 2950
+P 3650 2950
+F 0 "Q?" H 3841 2996 50  0000 L CNN
+F 1 "2N2219" H 3841 2905 50  0000 L CNN
+F 2 "Package_TO_SOT_THT:TO-39-3" H 3850 2875 50  0001 L CIN
+F 3 "http://www.onsemi.com/pub_link/Collateral/2N2219-D.PDF" H 3650 2950 50  0001 L CNN
+	1    3650 2950
 	-1   0    0    -1  
 $EndComp
-Wire Wire Line
-	3350 2950 3500 2950
-Connection ~ 3500 2950
 Text GLabel 2800 2750 0    50   Input ~ 0
 V+toVFD
-Text Notes 2400 2700 0    50   ~ 0
+Text Notes 2250 2700 0    50   ~ 0
 +10.5V 20mA
-Wire Wire Line
-	2800 2750 3050 2750
-Wire Wire Line
-	2800 3150 3050 3150
 Wire Notes Line
-	2200 1800 2200 3300
+	1700 2000 1700 3500
+Text Notes 4150 3150 0    50   ~ 0
+1kHz PWM spindle speed control
+Text Notes 4150 2150 0    50   ~ 0
+Spindle forward run
+Wire Wire Line
+	3850 2950 4050 2950
+Wire Wire Line
+	3350 2400 3900 2400
+Text Notes 2450 3250 0    50   ~ 0
+20k 
+Wire Wire Line
+	3100 3300 2850 3300
+Wire Wire Line
+	3400 3300 3550 3300
+Wire Wire Line
+	3550 3300 3550 3150
+Wire Wire Line
+	2800 2750 3550 2750
+Wire Wire Line
+	2750 3300 2850 3300
+Connection ~ 2850 3300
+Wire Wire Line
+	2750 3650 2850 3650
+Wire Wire Line
+	2850 3650 2850 3600
+Wire Wire Line
+	2850 3650 3900 3650
+Wire Wire Line
+	3900 3650 3900 2400
+Connection ~ 2850 3650
+Connection ~ 3900 2400
+Wire Wire Line
+	3900 2400 4050 2400
+Wire Notes Line
+	4000 3800 2800 3800
+Wire Notes Line
+	2800 3800 2800 1850
+Wire Notes Line
+	4000 1850 4000 3800
+Wire Notes Line
+	2800 1850 4000 1850
+Entry Bus Bus
+	8200 2900 8300 3000
 $EndSCHEMATC
