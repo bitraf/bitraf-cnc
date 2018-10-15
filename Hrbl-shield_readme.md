@@ -9,7 +9,7 @@
 
 * A fabricatable replacement controller card for the [Shopbot PRSalpha](http://www.shopbottools.com/mProducts/prSalpha.htm)
 * It has a Arduino Nano running [GRBL](https://github.com/gnea/grbl/wiki) which does the motion planning.
-* It can be fed with gcode over USB using [Universal Gcode sender](https://winder.github.io/ugs_website/)
+* It can be fed with gcode over USB using [Octoprint](https://octoprint.org/download/) or [Universal Gcode sender](https://winder.github.io/ugs_website/)
 * Pluggable connections that combine all connections needed per axis in one connector per motor *(Needs work!)*
 * Full optoisolation separates the computer-arduino circuit from all signal and power wires.
 * Z axis milling bit probe connection with external pull-up
