@@ -4473,14 +4473,14 @@ L Device:R R12
 U 1 1 5B8967CE
 P 5350 2100
 F 0 "R12" H 5300 2100 50  0000 L CNN
-F 1 "220" H 5150 2050 50  0000 L CNN
+F 1 "R 1k" H 5100 2100 50  0000 L CNN
 F 2 "Resistor_SMD:R_1206_3216Metric_Pad1.42x1.75mm_HandSolder" V 5280 2100 50  0001 C CNN
 F 3 "~" H 5350 2100 50  0001 C CNN
 	1    5350 2100
 	0    1    1    0   
 $EndComp
 Text GLabel 5200 2100 0    50   Input ~ 0
-5V_ISO
+24V_CONTACTOR_SIGNAL
 $Comp
 L power:GNDS #PWR07
 U 1 1 5B8967D6
@@ -5184,7 +5184,7 @@ Wire Wire Line
 Wire Wire Line
 	7300 1950 7300 2100
 Text Notes 7600 1800 0    50   ~ 0
-Abort indicator
+Abort indicator, on the front!
 Text Notes 7150 2600 0    50   ~ 0
 Arduino GND!
 Text Notes 4850 2600 0    50   ~ 0
@@ -5227,7 +5227,7 @@ L pspice:CAP C4
 U 1 1 5BB54227
 P 12250 6850
 F 0 "C4" H 12428 6896 50  0000 L CNN
-F 1 "100nF (0.1uF)" H 12428 6805 50  0000 L CNN
+F 1 "10uF" H 12428 6805 50  0000 L CNN
 F 2 "Capacitor_SMD:C_1206_3216Metric_Pad1.42x1.75mm_HandSolder" H 12250 6850 50  0001 C CNN
 F 3 "" H 12250 6850 50  0001 C CNN
 	1    12250 6850
@@ -5240,12 +5240,7 @@ Wire Wire Line
 Wire Wire Line
 	12550 7100 12250 7100
 Wire Wire Line
-	12250 6600 11900 6600
-Wire Wire Line
-	11900 6600 11900 6950
-Wire Wire Line
 	11900 6950 11350 6950
-Connection ~ 12250 6600
 Wire Wire Line
 	12250 7100 11850 7100
 Connection ~ 12250 7100
@@ -14098,4 +14093,48 @@ F 3 "" H 6350 2750 50  0001 C CNN
 	1    6350 2750
 	1    0    0    -1  
 $EndComp
+$Comp
+L Connector_Generic:Conn_01x02 POWER_IN2
+U 1 1 5BC54375
+P 14100 8450
+F 0 "POWER_IN2" H 14180 8442 50  0000 L CNN
+F 1 "Conn_01x02" H 14180 8351 50  0000 L CNN
+F 2 "Connector_Phoenix_MC:PhoenixContact_MCV_1,5_2-G-3.5_1x02_P3.50mm_Vertical" H 14100 8450 50  0001 C CNN
+F 3 "~" H 14100 8450 50  0001 C CNN
+	1    14100 8450
+	1    0    0    -1  
+$EndComp
+Text GLabel 13600 8450 0    50   Input ~ 0
+24V_CONTACTOR_SIGNAL
+$Comp
+L power:GNDS #PWR038
+U 1 1 5BC564F4
+P 13600 8550
+F 0 "#PWR038" H 13600 8300 50  0001 C CNN
+F 1 "GNDS" V 13605 8422 50  0000 R CNN
+F 2 "" H 13600 8550 50  0001 C CNN
+F 3 "" H 13600 8550 50  0001 C CNN
+	1    13600 8550
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	13600 8450 13900 8450
+Wire Wire Line
+	13900 8550 13600 8550
+$Comp
+L Device:R R27
+U 1 1 5BC6D809
+P 12100 6600
+F 0 "R27" V 11893 6600 50  0000 C CNN
+F 1 "R 1k" V 11984 6600 50  0000 C CNN
+F 2 "Resistor_SMD:R_1206_3216Metric_Pad1.42x1.75mm_HandSolder" V 12030 6600 50  0001 C CNN
+F 3 "~" H 12100 6600 50  0001 C CNN
+	1    12100 6600
+	0    1    1    0   
+$EndComp
+Connection ~ 12250 6600
+Wire Wire Line
+	11950 6600 11900 6600
+Wire Wire Line
+	11900 6600 11900 6950
 $EndSCHEMATC
