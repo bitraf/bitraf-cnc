@@ -19,4 +19,5 @@ Lessons learned:
 - it is difficult to find the correct depth to mill at
 - if the PCB blank is not completely flat; the result will be uneven (and the resulting PCB unusable)
 
-Images and videos in the respective sub-directories.
+Images and videos in the respective sub-directories. Edit: videos are too large for Github. Must be stored somewhere else
+(or edited down to acceptable size).
