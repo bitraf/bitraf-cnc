@@ -1,6 +1,6 @@
 On Bitraf build night, we (@margrav and I) did a small test trying to mill a PCB on Hattori.
 
-[This](../Hrbl_for_shopbot/single-axis-test-CNC-ready.dxf) PCB was used for testing.
+[This](../../Hrbl_for_shopbot/single-axis-test-CNC-ready.dxf) PCB was used for testing.
 We used VCarve; imported the DXF, and made toolpaths there. The existing spoil board on the Hattori bed was well worn, we used that.
 
 Parts:
