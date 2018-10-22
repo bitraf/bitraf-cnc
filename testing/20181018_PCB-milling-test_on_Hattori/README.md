@@ -6,7 +6,7 @@ We used VCarve; imported the DXF, and made toolpaths there. The existing spoil b
 Parts:
 * PCB "blank" bought in Bitmart
 * double sided tape (for attaching PCB to spoil board)
-* random drill bits / end mill and V bits found in the box near Hattori / Modela
+* random drill bits / end mill and V bits found in the box near Hattori / Modela (one 0.4 mm straight bit (turns out this is a drill bit) and one 0.2mm V-shaped 30 degrees bit. Pictures in the images directory)
 
 Lessons learned:
 - using an well worn spoil board is unwise; you should start with a freshly planed spoil board
