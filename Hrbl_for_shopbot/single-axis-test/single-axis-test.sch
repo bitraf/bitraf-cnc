@@ -18,14 +18,10 @@ Text Label 8700 1100 0    60   ~ 0
 1(Tx)
 Text Label 8700 1200 0    60   ~ 0
 0(Rx)
-Text Label 8700 1500 0    60   ~ 0
-STEP
 Text Label 8700 1600 0    60   ~ 0
 3(**)
 Text Label 8700 1700 0    60   ~ 0
 4
-Text Label 8700 1800 0    60   ~ 0
-DIR
 Text Label 8700 1900 0    60   ~ 0
 6(**)
 Text Label 8700 2000 0    60   ~ 0
@@ -42,8 +38,6 @@ Text Label 8700 2500 0    60   ~ 0
 12(MISO)
 Text Label 10550 2500 0    60   ~ 0
 13(SCK)
-Text Label 10550 2200 0    60   ~ 0
-A0
 Text Label 10550 2100 0    60   ~ 0
 A1
 Text Label 10550 2000 0    60   ~ 0
@@ -259,107 +253,40 @@ Text Notes 9650 1100 0    60   ~ 0
 $Comp
 L power:GND #PWR0101
 U 1 1 5BC4FD72
-P 7600 1500
-F 0 "#PWR0101" H 7600 1250 50  0001 C CNN
-F 1 "GND" H 7600 1350 50  0000 C CNN
-F 2 "" H 7600 1500 50  0000 C CNN
-F 3 "" H 7600 1500 50  0000 C CNN
-	1    7600 1500
-	0    -1   -1   0   
-$EndComp
-$Comp
-L power:GND #PWR0102
-U 1 1 5BC4FDA0
-P 7600 1600
-F 0 "#PWR0102" H 7600 1350 50  0001 C CNN
-F 1 "GND" H 7600 1450 50  0000 C CNN
-F 2 "" H 7600 1600 50  0000 C CNN
-F 3 "" H 7600 1600 50  0000 C CNN
-	1    7600 1600
-	0    -1   -1   0   
-$EndComp
-$Comp
-L power:GND #PWR0103
-U 1 1 5BC4FDBE
-P 7600 1700
-F 0 "#PWR0103" H 7600 1450 50  0001 C CNN
-F 1 "GND" H 7600 1550 50  0000 C CNN
-F 2 "" H 7600 1700 50  0000 C CNN
-F 3 "" H 7600 1700 50  0000 C CNN
-	1    7600 1700
-	0    -1   -1   0   
-$EndComp
-$Comp
-L power:GND #PWR0104
-U 1 1 5BC4FDD7
-P 7600 1800
-F 0 "#PWR0104" H 7600 1550 50  0001 C CNN
-F 1 "GND" H 7600 1650 50  0000 C CNN
-F 2 "" H 7600 1800 50  0000 C CNN
-F 3 "" H 7600 1800 50  0000 C CNN
-	1    7600 1800
-	0    -1   -1   0   
-$EndComp
-$Comp
-L power:GND #PWR0105
-U 1 1 5BC4FDF0
-P 7600 1900
-F 0 "#PWR0105" H 7600 1650 50  0001 C CNN
-F 1 "GND" H 7600 1750 50  0000 C CNN
-F 2 "" H 7600 1900 50  0000 C CNN
-F 3 "" H 7600 1900 50  0000 C CNN
-	1    7600 1900
-	0    -1   -1   0   
-$EndComp
-$Comp
-L power:GND #PWR0106
-U 1 1 5BC503D3
-P 7600 2000
-F 0 "#PWR0106" H 7600 1750 50  0001 C CNN
-F 1 "GND" H 7600 1850 50  0000 C CNN
-F 2 "" H 7600 2000 50  0000 C CNN
-F 3 "" H 7600 2000 50  0000 C CNN
-	1    7600 2000
-	0    -1   -1   0   
-$EndComp
-$Comp
-L power:GND #PWR0107
-U 1 1 5BC503EC
-P 7600 2100
-F 0 "#PWR0107" H 7600 1850 50  0001 C CNN
-F 1 "GND" H 7600 1950 50  0000 C CNN
-F 2 "" H 7600 2100 50  0000 C CNN
-F 3 "" H 7600 2100 50  0000 C CNN
-	1    7600 2100
+P 7400 1500
+F 0 "#PWR0101" H 7400 1250 50  0001 C CNN
+F 1 "GND" H 7400 1350 50  0000 C CNN
+F 2 "" H 7400 1500 50  0000 C CNN
+F 3 "" H 7400 1500 50  0000 C CNN
+	1    7400 1500
 	0    -1   -1   0   
 $EndComp
 $Comp
 L power:GND #PWR0108
 U 1 1 5BC6CAC7
-P 7100 1500
-F 0 "#PWR0108" H 7100 1250 50  0001 C CNN
-F 1 "GND" H 7100 1350 50  0000 C CNN
-F 2 "" H 7100 1500 50  0000 C CNN
-F 3 "" H 7100 1500 50  0000 C CNN
-	1    7100 1500
+P 6900 1500
+F 0 "#PWR0108" H 6900 1250 50  0001 C CNN
+F 1 "GND" H 6900 1350 50  0000 C CNN
+F 2 "" H 6900 1500 50  0000 C CNN
+F 3 "" H 6900 1500 50  0000 C CNN
+	1    6900 1500
 	0    1    1    0   
 $EndComp
 $Comp
 L power:+5V #PWR0109
 U 1 1 5BC6D0BD
-P 7100 1600
-F 0 "#PWR0109" H 7100 1450 50  0001 C CNN
-F 1 "+5V" V 7100 1800 28  0000 C CNN
-F 2 "" H 7100 1600 50  0000 C CNN
-F 3 "" H 7100 1600 50  0000 C CNN
-	1    7100 1600
+P 6900 1600
+F 0 "#PWR0109" H 6900 1450 50  0001 C CNN
+F 1 "+5V" V 6900 1800 28  0000 C CNN
+F 2 "" H 6900 1600 50  0000 C CNN
+F 3 "" H 6900 1600 50  0000 C CNN
+	1    6900 1600
 	0    -1   -1   0   
 $EndComp
-NoConn ~ 7100 2200
-NoConn ~ 7600 2200
-NoConn ~ 7100 1900
-NoConn ~ 7100 2000
-NoConn ~ 7100 2100
+NoConn ~ 6900 2200
+NoConn ~ 7400 2200
+NoConn ~ 6900 1900
+NoConn ~ 6900 2000
 $Comp
 L power:PWR_FLAG #FLG0101
 U 1 1 5BC710DB
@@ -421,38 +348,133 @@ NoConn ~ 10550 1800
 NoConn ~ 10550 1900
 NoConn ~ 10550 2000
 NoConn ~ 10550 2100
-NoConn ~ 10550 2200
 NoConn ~ 10550 2300
 NoConn ~ 10550 2500
-Wire Wire Line
-	6700 1700 6700 1050
-Wire Wire Line
-	6700 1050 8350 1050
-Wire Wire Line
-	8350 1050 8350 1800
-Wire Wire Line
-	8350 1800 9350 1800
-Wire Wire Line
-	6700 1700 7100 1700
-Wire Wire Line
-	8450 1500 8450 950 
-Wire Wire Line
-	8450 950  6600 950 
-Wire Wire Line
-	6600 950  6600 1800
-Wire Wire Line
-	8450 1500 9350 1500
-Wire Wire Line
-	6600 1800 7100 1800
 $Comp
-L Connector_Generic:Conn_02x08_Odd_Even J1
+L Connector_Generic:Conn_02x08_Odd_Even X_motor1
 U 1 1 5BC7D395
-P 7300 1800
-F 0 "J1" H 7350 2317 50  0000 C CNN
-F 1 "Conn_02x08_Odd_Even" H 7350 2226 50  0000 C CNN
-F 2 "Connectors_IDC:IDC-Header_2x08_Pitch2.54mm_Straight" H 7300 1800 50  0001 C CNN
-F 3 "~" H 7300 1800 50  0001 C CNN
-	1    7300 1800
+P 7100 1800
+F 0 "X_motor1" H 7150 2317 50  0000 C CNN
+F 1 "Conn_02x08_Odd_Even" H 7150 2226 50  0000 C CNN
+F 2 "Connectors_IDC:IDC-Header_2x08_Pitch2.54mm_Straight" H 7100 1800 50  0001 C CNN
+F 3 "~" H 7100 1800 50  0001 C CNN
+	1    7100 1800
 	1    0    0    -1  
 $EndComp
+$Comp
+L power:+5V #PWR0102
+U 1 1 5BD637DE
+P 7400 1600
+F 0 "#PWR0102" H 7400 1450 50  0001 C CNN
+F 1 "+5V" V 7400 1800 28  0000 C CNN
+F 2 "" H 7400 1600 50  0000 C CNN
+F 3 "" H 7400 1600 50  0000 C CNN
+	1    7400 1600
+	0    1    1    0   
+$EndComp
+Text GLabel 8700 1800 0    50   Input ~ 0
+X_dir
+Text GLabel 6900 1700 0    50   Input ~ 0
+X_dir
+Text GLabel 7400 1700 2    50   Input ~ 0
+X_dir
+Wire Wire Line
+	8700 1800 9350 1800
+Text GLabel 8700 1500 0    50   Input ~ 0
+X_step
+Text GLabel 6900 1800 0    50   Input ~ 0
+X_step
+Text GLabel 7400 1800 2    50   Input ~ 0
+X_step
+Wire Wire Line
+	8700 1500 9350 1500
+Text Label 7500 2200 0    50   ~ 0
+no_pin_on_header
+Wire Wire Line
+	7500 2200 7400 2200
+NoConn ~ 7400 2000
+NoConn ~ 7400 1900
+Text GLabel 6900 2100 0    50   Input ~ 0
+X_alarm_+?
+Text GLabel 7400 2100 2    50   Input ~ 0
+X_alarm_-?
+$Comp
+L Transistor_BJT:BC413 Transitor_for_inverting_alarm1
+U 1 1 5BD678E1
+P 7100 3300
+F 0 "Transitor_for_inverting_alarm1" H 7291 3346 50  0000 L CNN
+F 1 "BC413" H 7291 3255 50  0000 L CNN
+F 2 "Package_TO_SOT_THT:TO-92_Inline" H 7300 3225 50  0001 L CIN
+F 3 "http://www.cdil.com/datasheets/bc413_14_b_c.pdf" H 7100 3300 50  0001 L CNN
+	1    7100 3300
+	1    0    0    -1  
+$EndComp
+Text GLabel 6500 3300 0    50   Input ~ 0
+X_alarm_+?
+Text GLabel 7100 3500 0    50   Input ~ 0
+X_alarm_-?
+Text GLabel 10550 2200 2    50   Input ~ 0
+Alarm
+$Comp
+L power:+5V #PWR0103
+U 1 1 5BD6A054
+P 7200 2650
+F 0 "#PWR0103" H 7200 2500 50  0001 C CNN
+F 1 "+5V" V 7200 2850 28  0000 C CNN
+F 2 "" H 7200 2650 50  0000 C CNN
+F 3 "" H 7200 2650 50  0000 C CNN
+	1    7200 2650
+	1    0    0    -1  
+$EndComp
+Text GLabel 7300 3100 2    50   Input ~ 0
+Alarm
+Wire Wire Line
+	7200 3100 7300 3100
+Wire Wire Line
+	7200 3100 7200 3000
+Connection ~ 7200 3100
+$Comp
+L power:GND #PWR0104
+U 1 1 5BD6B547
+P 7200 3600
+F 0 "#PWR0104" H 7200 3350 50  0001 C CNN
+F 1 "GND" H 7200 3450 50  0000 C CNN
+F 2 "" H 7200 3600 50  0000 C CNN
+F 3 "" H 7200 3600 50  0000 C CNN
+	1    7200 3600
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7100 3500 7200 3500
+Connection ~ 7200 3500
+Wire Wire Line
+	7200 3500 7200 3600
+$Comp
+L Device:R R1
+U 1 1 5BD6FEC6
+P 6700 3300
+F 0 "R1" V 6493 3300 50  0000 C CNN
+F 1 "1k?" V 6584 3300 50  0000 C CNN
+F 2 "" V 6630 3300 50  0001 C CNN
+F 3 "~" H 6700 3300 50  0001 C CNN
+	1    6700 3300
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	6500 3300 6550 3300
+Wire Wire Line
+	6850 3300 6900 3300
+$Comp
+L Device:R R2
+U 1 1 5BD72B43
+P 7200 2850
+F 0 "R2" H 7130 2804 50  0000 R CNN
+F 1 "1k?" H 7130 2895 50  0000 R CNN
+F 2 "" V 7130 2850 50  0001 C CNN
+F 3 "~" H 7200 2850 50  0001 C CNN
+	1    7200 2850
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	7200 2700 7200 2650
 $EndSCHEMATC
