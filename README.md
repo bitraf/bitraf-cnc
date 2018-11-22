@@ -1,6 +1,8 @@
 # Bitraf-cnc
 CNC-related research and projects at Bitraf
 
+ config/	configuration for our machines
+
  docs/		documentation
 
  docs/shopbot	document Shopbot specifics
